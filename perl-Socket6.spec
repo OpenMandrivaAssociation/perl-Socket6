@@ -3,7 +3,7 @@
 Summary:	IPv6 related part of the C socket.h defines and structure manipulators
 Name:		perl-%{module}
 Version:	0.19
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	BSD-like
 Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/U/UM/UMEMOTO/%{module}/%{module}-%{version}.tar.bz2
