@@ -9,7 +9,6 @@ Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/U/UM/UMEMOTO/%{module}/%{module}-%{version}.tar.bz2
 URL:		http://search.cpan.org/dist/%{module}/
 BuildRequires:	perl-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This module provides glue routines to the various IPv6 functions.
