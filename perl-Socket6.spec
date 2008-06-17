@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	0.20
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	IPv6 related part of the C socket.h defines and structure manipulators
 License:	BSD-like
 Group:		Development/Perl
