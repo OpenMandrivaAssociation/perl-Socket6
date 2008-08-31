@@ -1,7 +1,7 @@
 %define module	Socket6
 
 Name:		perl-%{module}
-Version:	0.21
+Version:	0.22
 Release:	%mkrel 1
 Summary:	IPv6 related part of the C socket.h defines and structure manipulators
 License:	BSD-like
