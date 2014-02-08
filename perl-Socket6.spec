@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    8
+Release:    9
 
 Summary:	IPv6 related part of the C socket.h defines and structure manipulators
 License:	BSD-like
