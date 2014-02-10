@@ -1,2 +1,4 @@
+removed_sources:
+  Socket6-0.23.tar.gz: f6598055e40d71fe3bab9881d38995f8677ee90a
 sources:
-  "Socket6-0.23.tar.gz": f6598055e40d71fe3bab9881d38995f8677ee90a
+  Socket6-0.25.tar.gz: 4499bd5b5150bd44be79238df348d89ea228f5a6
