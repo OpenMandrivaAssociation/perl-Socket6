@@ -34,6 +34,6 @@ make test
 %doc ChangeLog README
 %{perl_vendorarch}/auto/Socket6
 %{perl_vendorarch}/Socket6.pm
-%{_mandir}/man3/Socket6.3pm
+%{_mandir}/man3/Socket6.3pm.*
 
 
