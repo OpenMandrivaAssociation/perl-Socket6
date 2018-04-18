@@ -1,10 +1,10 @@
 %define modname	Socket6
-%define modver 0.25
+%define modver 0.28
 
 Summary:	IPv6 related part of the C socket.h defines and structure manipulators
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	7
+Release:	1
 License:	BSD-like
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
