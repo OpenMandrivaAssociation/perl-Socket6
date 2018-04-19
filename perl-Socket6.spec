@@ -10,6 +10,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
 Source0:	http://www.cpan.org/modules/by-module/Socket6/Socket6-%{modver}.tar.gz
 BuildRequires:	perl-devel
+BuildRequires:  perl(Test)
 
 %description
 This module provides glue routines to the various IPv6 functions.
