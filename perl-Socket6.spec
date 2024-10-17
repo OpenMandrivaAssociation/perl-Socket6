@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{modver}
 Release:	6
 License:	BSD-like
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Socket6
+Url:		https://metacpan.org/pod/Socket6
 Source0:	http://www.cpan.org/modules/by-module/Socket6/Socket6-%{modver}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:  perl(Test)
