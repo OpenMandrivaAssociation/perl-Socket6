@@ -1,14 +1,13 @@
 %define modname	Socket6
-%define modver 0.29
 
 Summary:	IPv6 related part of the C socket.h defines and structure manipulators
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	6
+Version:	0.29
+Release:	1
 License:	BSD-like
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Socket6
-Source0:	http://www.cpan.org/modules/by-module/Socket6/Socket6-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Socket6/Socket6-%{version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:  perl(Test)
 
@@ -19,7 +18,7 @@ If you use the Socket6 module, be sure to specify "use Socket" as
 well as "use Socket6".
 
 %prep
-%setup -qn %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor OPTIMIZE="%{optflags}"
@@ -32,6 +31,4 @@ well as "use Socket6".
 %doc ChangeLog README
 %{perl_vendorarch}/auto/Socket6
 %{perl_vendorarch}/Socket6.pm
-%{_mandir}/man3/Socket6.3pm.*
-
-
+%{_mandir}/man3/Socket6.3pm*
