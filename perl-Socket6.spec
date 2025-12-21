@@ -8,6 +8,7 @@ License:	BSD-like
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Socket6
 Source0:	http://www.cpan.org/modules/by-module/Socket6/Socket6-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:  perl(Test)
 
